@@ -1,0 +1,6 @@
+
+
+<h3>Enter any text:</h3>
+<input #myData [(ngModel)]="name" type="text" /><br/><br/>
+<button (click)=printConsole(myData.value) >Submit</button>
+{{name}}

@@ -1,0 +1,7 @@
+<hr>
+<h3>Hello parent here</h3>
+<p>Recieving message from chid-1 and send it to child-2</p>
+
+<app-c10 (child1)="message=$event"></app-c10>
+
+<app-c11 [dataParent]="message"></app-c11>
